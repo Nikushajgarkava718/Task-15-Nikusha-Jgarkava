@@ -27,8 +27,7 @@ console.log(infinity1, typeof infinity1);
 // console.log(5 / 10); //division
 // console.log(5 ** 2); // power
 // console.log(5 % 10); // reminder
-
-console.log(5 / "test"); // NaN
+// console.log(5 / "test"); // NaN not a number typeof => number
 
 //string
 let studentName = "Nikusha";
@@ -36,6 +35,8 @@ let studentLastName = "Jgarkava";
 let studentFullName = `${studentName} ${studentLastName}`; // template literals
 
 // console.log(typeof studentFullName);
+let studentFullName2 =
+  "student full name is " + studentName + "  " + studentLastName;
 
 // boolean true false
 let isStudentVerified = true;
@@ -61,3 +62,6 @@ userVerified = true;
 let productsList = null;
 
 // console.log(typeof productsList); //  object
+
+console.log(isStudentVerified + minAge + userVerified + studentFullName);
+console.log(isStudentVerified + studentFullName + minAge + userVerified);
