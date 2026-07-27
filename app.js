@@ -18,8 +18,8 @@ let userRestrictions;
 
 // number
 let studentScore = 90;
-const infinity1 = 1 / 0;
-const infinity2 = -1 / 0;
+const infinity1 = 1 / 0; // infinity
+const infinity2 = -1 / 0; // - infinity
 console.log(infinity1, typeof infinity1);
 // console.log(5 + 10); // addition
 // console.log(5 - 10); // substraction
@@ -27,6 +27,8 @@ console.log(infinity1, typeof infinity1);
 // console.log(5 / 10); //division
 // console.log(5 ** 2); // power
 // console.log(5 % 10); // reminder
+
+console.log(5 / "test"); // NaN
 
 //string
 let studentName = "Nikusha";
