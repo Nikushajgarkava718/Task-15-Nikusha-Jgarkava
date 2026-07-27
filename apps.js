@@ -31,7 +31,6 @@ console.log(expiredOffer, typeof expiredOffer);
 console.log(typeof stockId);
 console.log(typeof productSymbol);
 
-// 1) template literal
 console.log(
   `პროდუქტის სახელი: ${productName} , რაოდენობა: ${quantity} , ჯამური ფასი: ${totalPrice} ევრო. ხელმისაწვდომია: ${isAvailable}.`,
 );
@@ -39,11 +38,11 @@ console.log(
 console.log(
   "პროდუქტის სახელი: " +
     productName +
-    " , რაოდენობა " +
+    " , რაოდენობა: " +
     quantity +
-    " , ჯამური ფასი " +
+    " , ჯამური ფასი: " +
     totalPrice +
-    "ევრო. ხელმისაწვდომია: " +
+    " ევრო. ხელმისაწვდომია: " +
     isAvailable +
     ".",
 );
